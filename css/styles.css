@@ -693,6 +693,7 @@ header .contacts ul li {
 
 .footer-form-button-svg {
   margin-left: 16px;
+  fill: #ffffff;
 }
 
 .footer-div-modal {
@@ -812,7 +813,7 @@ button {
   border-color: #4d5ae5;
 }
 
-.modal-form-input:focus + .svg {
+.modal-form-input:focus + .modal-form-svg {
   fill: #4d5ae5;
 }
 
