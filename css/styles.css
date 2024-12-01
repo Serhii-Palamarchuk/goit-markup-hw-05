@@ -782,7 +782,7 @@ button {
   margin-bottom: 8px;
 }
 
-.modal-user-name-label {
+.modal-form-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -791,11 +791,11 @@ button {
   margin-bottom: 4px;
 }
 
-.modal-user-name-div {
+.modal-form-div {
   position: relative;
 }
 
-.modal-user-name-input {
+.modal-form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -806,15 +806,15 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-user-name-input:focus {
+.modal-form-input:focus {
   border-color: #4d5ae5;
 }
 
-.modal-user-name-input:focus + .svg {
+.modal-form-input:focus + .svg {
   fill: #4d5ae5;
 }
 
-.modal-user-name-svg {
+.modal-form-svg {
   position: absolute;
   left: 16px;
   top: 50%;
