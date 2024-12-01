@@ -1,5 +1,7 @@
 :root {
   --label-color: #8e8f99;
+  --span-bg-color: #404bbf;
+  --span-fill-color: #f4f4fd;
 }
 
 body {
@@ -871,6 +873,14 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.modal-form-privacy-input:checked
+  + .modal-form-privacy-label
+  .modal-form-privacy-span {
+  background-color: var(--span-bg-color);
+  border: none;
+  fill: var(--span-fill-color);
 }
 
 .visually-hidden {
