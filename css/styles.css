@@ -685,6 +685,12 @@ header .contacts ul li {
   border-radius: 4px;
 }
 
+.footer-form-button-svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+}
+
 button {
   cursor: pointer;
 }
